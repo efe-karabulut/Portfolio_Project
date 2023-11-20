@@ -1,0 +1,64 @@
+@media screen and (max-width: 950px) {
+  .body .body-container {
+    flex-direction: column;
+  }
+
+  .body-container .body-img {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .body-content .h1 {
+    font-size: 1.8rem;
+  }
+
+  .body-container .body-content .p1,
+  .body-container .body-content .p2 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .m-right {
+    font-size: 1rem;
+  }
+
+  li .button {
+    font-size: 0.7rem;
+  }
+
+  .push span {
+    font-size: 1.1rem;
+  }
+
+  .body-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .body-flex-container .left {
+    width: 100%;
+  }
+
+  .body-flex-container .left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .m-right {
+    font-size: 0.75rem;
+  }
+
+  li .button {
+    font-size: 0.5rem;
+  }
+
+  .push span {
+    font-size: 0.9rem;
+  }
+}

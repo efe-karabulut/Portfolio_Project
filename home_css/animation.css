@@ -1,0 +1,25 @@
+.m-right a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.m-right a {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
+    linear-gradient(to right, #00ff9d, #00ad6b, #008e57);
+  background-size: 100% 1.3px, 0 1.3px;
+  background-position: 100% 80%, 0 80%;
+  background-repeat: no-repeat;
+  transition: background-size 300ms;
+}
+
+.m-right a:hover {
+  background-size: 0 1.3px, 100% 1.3px;
+}
+
+li .button:hover {
+  background-color: black;
+}
+
+.middle-button a:hover {
+  background-color: black;
+}

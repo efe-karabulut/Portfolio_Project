@@ -1,0 +1,51 @@
+@media screen and (max-width: 1000px) {
+  .body-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .body-container .img1 {
+    width: 45vw;
+  }
+
+  .body-container .first-project {
+    border-bottom: 1px solid silver;
+    margin-bottom: 3rem;
+  }
+  .body-container .button {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .m-right {
+    font-size: 1rem;
+  }
+
+  li .button {
+    font-size: 0.7rem;
+  }
+
+  .push span {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .m-right {
+    font-size: 0.75rem;
+  }
+
+  li .button {
+    font-size: 0.5rem;
+  }
+
+  .push span {
+    font-size: 0.9rem;
+  }
+
+  .body-container .button {
+    font-size: 1rem;
+  }
+}
